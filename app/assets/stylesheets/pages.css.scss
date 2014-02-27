@@ -1,3 +1,67 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// MAINBLUE#3499DB	DARKBLUE#1B85BE
+
+div#join h1{
+	font-size: 60px;
+	font-weight:200;
+}
+div#join{
+	text-align:center;
+}
+div#join button{
+margin-top:50px;
+width:50%;
+color:#3498db;
+background:#fff;
+font-size:2em;
+}
+
+.join-modal h3.modal-title{
+	font-weight:400;
+	color:#ffffff;
+}
+
+
+.join-modal .modal-header{
+	border-bottom:none;
+	background:#1B85BE;
+	text-align:center;
+}
+.modal-body{
+
+}
+.sign-up-modal .modal-content{
+	color:#3498db;	
+	border-radius:0;
+	background:#fff;
+	box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-modal .modal-header{
+	text-align:center;
+	background:#fff;}
+.sign-up-modal h3.modal-title{
+	font-weight:400;
+}
+
+
+.modal-footer{
+	border-top:none;
+	
+}
+.join-modal .modal-content{
+	border-radius:0;
+	background:#3499DB;
+	box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+
