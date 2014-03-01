@@ -1,12 +1,16 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body.users-show{
-	background:#FFFFFF;
+body.users{
+	background:#3499DB;
 	padding:60px;
 }
 
 .navbar{
-background:#3499DB
+background: rgba(255, 255, 255, 0.5); ;
 
+}
+
+.card img{
+	width:100%;
 }

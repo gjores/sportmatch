@@ -7,15 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="<%= body_class %>">
-	<% if signed_in? %>
-<nav class="navbar navbar-default navbar-fixed-top">
 
-		<%= render 'shared/signed_in_nav' %>
-		
-</nav>
-<% end -%>
-<%= render partial: "shared/flash_messages", flash: flash %> 
-<%= yield %>
+	<div class="container">
 
+
+	<%= render partial: "shared/flash_messages", flash: flash %> 
+	<%= yield %>
+	</div>
 </body>
 </html>
