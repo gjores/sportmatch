@@ -1,4 +1,5 @@
 Sportmatch::Application.routes.draw do
+  get "users/show"
   devise_for :users
   get "pages/home"
   get "pages/main"
