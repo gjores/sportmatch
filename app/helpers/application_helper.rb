@@ -10,7 +10,9 @@ end
 def devise_mapping
  @devise_mapping ||= Devise.mappings[:user]
 end
-
+def body_class
+    [controller_name, action_name].join('-')
+end
 def bootstrap_class_for flash_type
     case flash_type
       when :success
