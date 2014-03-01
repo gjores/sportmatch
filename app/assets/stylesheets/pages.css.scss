@@ -10,12 +10,16 @@ div#join h1{
 div#join{
 	text-align:center;
 }
-div#join button{
+div#join .btn{
 margin-top:50px;
 width:50%;
 color:#3498db;
 background:#fff;
 font-size:2em;
+}
+div#join .sign-in-btn{
+background:none;
+color:#fff;
 }
 
 .join-modal h3.modal-title{
@@ -64,4 +68,12 @@ font-size:2em;
 	font-weight:300;
 }
 
+@media (max-width: 768px) {
+div#join .btn{
+
+width:100%;
+
+}
+
+}
 
